@@ -19,6 +19,8 @@ function App() {
   return (
     <div>
       {/* condition = true && jei true grazina */}
+      {/* [...arrayEl, elToAddToArr] - array spread */}
+      {/* you can pass a function through props */}
       <Navbar />
       <div onClick={handleClick}>click to set state</div>
       <div onClick={handleClick2}>click to set count state</div>
